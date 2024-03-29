@@ -32,4 +32,13 @@ python3 setup.py install --user
 cd ../  # attempting to load torchvision from build dir will result in import error
 
 pip3 install ultralytics
-pip3 uninstall opencv-python
+pip3 uninstall opencv-python -y
+pip3 install onnx
+pip3 install numpy=1.20.3
+
+echo "Pytorch 1.13.0"
+echo "Torchvision 0.14.1"
+echo "ultralytics"
+echo "onnx"
+echo "numpy 1.20.3"
+echo "Requirements Installation Complete. Please reboot your Jetson."
