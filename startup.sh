@@ -25,9 +25,9 @@ ln -s ~/.local/lib/python3.8/site-packages/torch/include/ATen/native/quantized/A
     ~/.local/lib/python3.8/site-packages/torch/include/ATen/native/quantized/affine_quantizer.h
 
 sudo apt-get install libjpeg-dev zlib1g-dev libpython3-dev libopenblas-dev libavcodec-dev libavformat-dev libswscale-dev -y
-git clone --branch v0.14.1 https://github.com/pytorch/vision torchvision   # see below for version of torchvision to download
+git clone --branch v0.14.1 https://github.com/pytorch/vision torchvision 
 cd torchvision
-export BUILD_VERSION=0.14.1  # where 0.x.0 is the torchvision version  
+export BUILD_VERSION=0.14.1 
 python3 setup.py install --user
 cd ../  # attempting to load torchvision from build dir will result in import error
 
