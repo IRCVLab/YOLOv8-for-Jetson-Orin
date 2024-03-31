@@ -1,5 +1,6 @@
 # YOLOv8-for-Jetson-Orin
 Demo code for YOLOv8 with single CSI Camera of Jetson Orin nano
+Modified from https://github.com/JetsonHacksNano/CSI-Camera.git
 
 ## Before you go
 This code is for Jetpack 5.1.3, so ENSURE that your jetson is using Jetpack 5.1.3  
@@ -49,6 +50,7 @@ sh startup.sh
 This code is using YOLOv8 model for demonstration  
 
 **Model Setting**
+- 80 classes to predict
 - Basically YOLOv8n is included in each directory (Model in FP16 and FP32 will be converted when you run it)    
 - If you want another version like "YOLOv8m", "YOLOv8l" etc.. just replace it in every directory  
 
