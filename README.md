@@ -1,6 +1,7 @@
 # YOLOv8-for-Jetson-Orin
-Demo code for YOLOv8 with single CSI Camera of Jetson Orin nano
-Modified from https://github.com/JetsonHacksNano/CSI-Camera.git
+- Demo code for YOLOv8 with single CSI Camera of Jetson Orin nano  
+- For user convenience, just running "start.sh" -> "demo.sh" will show YOLOv8 demonstaration on your jetson board  
+- Modified from https://github.com/JetsonHacksNano/CSI-Camera.git  
 
 ## Before you go
 This code is for Jetpack 5.1.3, so ENSURE that your jetson is using Jetpack 5.1.3  
