@@ -12,7 +12,7 @@ This code is for Jetpack 5.1.3, so ENSURE that your jetson is using Jetpack 5.1.
 Version differences of main packages are described in appendix for someone in need
 
 ## Virtual Environment User
-If you are going to use this code in virtual environment, please check your OpneCV build informantion in your virtual environment(NOT HOST)
+If you are going to use this code in virtual environment, please check your OpenCV build informantion in your virtual environment(NOT HOST)
 ```shell
 $ python3
 $ >>> import cv2
