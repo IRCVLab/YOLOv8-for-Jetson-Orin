@@ -37,7 +37,7 @@ Preparing environmet for running YOLOv8 in Jetson, using CSI Camera
 > Torchvision 0.14.1  
 > ultralytics 8.1.37  
 > onnx 1.16.0  
-> numpy 1.20.3  
+> numpy 1.21.3
 
 Installation of Pytorch and Torchvision are from https://forums.developer.nvidia.com/t/pytorch-for-jetson/72048  
 
